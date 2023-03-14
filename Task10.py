@@ -22,6 +22,6 @@ for i in range(coins):
     else: 
         tails +=1
 if heads <= tails : 
-    print(f"Переверните {heads} с герба на решку")
+    print(f"Переверните {heads} монет(у, ы) с герба на решку")
 else:
-    print(f"Переверните {tails} с решки на герб")
+    print(f"Переверните {tails} монет(у, ы) с решки на герб")
