@@ -7,12 +7,6 @@ max = int(input("Введите минимальный элемент списк
 import random
 list_1 = [random.randint(-10, 30) for _ in range(10)]
 print(list_1)
-# result_list = []
-# for i in range(len(random_list)):
-#     if min <= random_list[i] <= max:
-#         # result_list.append([i])
-#         print(random_list)
-#         print(i, end=' ')
 for i in range(len(list_1)):
         if min <= list_1[i] <= max:
             print(i)
